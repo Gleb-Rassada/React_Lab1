@@ -1,0 +1,63 @@
+/* таким образом буду выравнивать каждый контейнер */
+.container {
+   padding: 40px 300px 0 300px;
+   text-align: center;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.circle {
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
+   background-color: #4c8be3;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.HealthCare {
+   margin-left: 12px;
+   font-size: 30px;
+}
+
+.t_letter {
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+/* ссылки шапки сайта */
+.navigationLink {
+   font-size: 21px;
+   text-decoration: none;
+   font-weight: 480;
+   color: #8b8a8a;
+}
+
+.navigationLink[href="home"] {
+   color: black;
+   font-weight: 700;
+}
+
+.navigationList {
+   font-size: 16px;
+   list-style-type: none;
+   display: flex;
+   gap: 40px;
+}
+
+.navigationList li {
+   display: inline;
+}

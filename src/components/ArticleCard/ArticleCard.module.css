@@ -1,0 +1,98 @@
+.container {
+   position: relative;
+   top: -20px;
+   padding: 0px 300px 0 300px;
+}
+
+.title {
+   color: #000;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+}
+
+.line {
+   margin-top: 26px;
+   margin-bottom: 72px;
+}
+
+.card {
+   width: 350px;
+   height: 512px;
+   flex-shrink: 0;
+   border-radius: 20px;
+   background: #fff;
+   box-shadow: 10px 40px 50px 0px rgba(95, 95, 95, 0.226);
+}
+
+.photo {
+   border-radius: 5%;
+}
+
+.cardContainer {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   justify-content: center;
+}
+
+.title_card,
+.subtitle_card {
+   max-width: 265px;
+}
+
+.title_card {
+   color: black;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 32px;
+}
+
+.subtitle_card {
+   color: #7d7987;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 28px;
+   text-align: left;
+}
+
+.button {
+   margin-top: 25px;
+   color: #4089ed;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 600;
+}
+
+.blueButton {
+   margin-top: 72px;
+   width: 200px;
+   height: 56px;
+   padding: 10px 20px;
+   border-radius: 55px;
+   border: 1.4px solid #458ff6;
+   cursor: pointer;
+   font-size: 18px;
+}
+
+.right_arrow {
+   margin-left: 5px;
+   width: 14px;
+   height: 10px;
+}
+
+.title_card,
+.subtitle_card,
+.button {
+   text-align: left;
+   margin-left: 33px;
+}
+
+.dotsSquare5 {
+   position: absolute;
+   top: 120px;
+   left: 350px;
+   z-index: -1;
+}
