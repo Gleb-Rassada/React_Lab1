@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+Реaлизация странички сайта медицинских услуг на React
+Чтобы запустить сайт, нужно в терминале, в открытой в папке "courcse-fall-2024-react",
+установить зависимости с помощью комманды : "npm install"
+и запустить сайт командой: "npm run dev"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Скриншоты:
+![3](https://github.com/Gleb-Rassada/React_Lab1/assets/79448263/b7b1e7a2-e22b-4de5-b435-ee5d62573b38)
+![2](https://github.com/Gleb-Rassada/React_Lab1/assets/79448263/974be86c-24b7-46a4-bfec-b7cca3c30ce3)
+![1](https://github.com/Gleb-Rassada/React_Lab1/assets/79448263/5c6f4f17-815b-4c31-b20c-3d9d8cf262dc)
+![7](https://github.com/Gleb-Rassada/React_Lab1/assets/79448263/33aaa795-0844-415d-901c-85b232d74086)
+![6](https://github.com/Gleb-Rassada/React_Lab1/assets/79448263/d67a8da4-e69b-4f85-845f-7945b739a465)
+![5](https://github.com/Gleb-Rassada/React_Lab1/assets/79448263/42bb3ece-b70f-409b-ab3f-44b5c41be538)
+![4](https://github.com/Gleb-Rassada/React_Lab1/assets/79448263/d8820693-b0b8-4e3f-acf1-b300e74394cb)
