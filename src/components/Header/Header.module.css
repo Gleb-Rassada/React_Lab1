@@ -1,6 +1,6 @@
 /* таким образом буду выравнивать каждый контейнер */
 .container {
-   padding: 40px 300px 0 200px;
+   padding: 40px 300px 0 300px;
    text-align: center;
 }
 
@@ -18,13 +18,18 @@
 }
 
 .circle {
-   width: 45px;
-   height: 45px;
-   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
    background-color: #4c8be3;
    display: flex;
    align-items: center;
    justify-content: center;
+}
+
+.HealthCare {
+   margin-left: 12px;
+   font-size: 30px;
 }
 
 .t_letter {
@@ -33,58 +38,7 @@
    font-weight: bold;
 }
 
-.HealthCare {
-   margin-left: 12px;
-   font-size: 30px;
-}
-
-/* к остальным прямоугольникам подобные отступы */
-.dotsRectangle {
-   position: absolute;
-   margin-top: 50px;
-   left: 50px;
-   display: flex;
-}
-
-.contentBox {
-   margin-top: 140px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.textContainer {
-   text-align: left;
-   display: flex;
-   align-items: center;
-}
-.text {
-   max-width: 500px;
-}
-
-.text h1 {
-   color: black;
-   font-size: 48px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 56px;
-}
-
-.text h2 {
-   color: #7d7988;
-   font-size: 25px;
-   font-style: normal;
-   font-weight: 300;
-   line-height: 32px;
-   margin-bottom: 45px;
-}
-
-.image_1 {
-   display: flex;
-   margin-left: 100px;
-}
 /* ссылки шапки сайта */
-
 .navigationLink {
    font-size: 21px;
    text-decoration: none;
@@ -106,32 +60,4 @@
 
 .navigationList li {
    display: inline;
-}
-
-/* кнопка */
-.blueButton {
-   display: flex;
-   justify-content: center;
-   width: 200px;
-
-   border-radius: 100px;
-   border: 1px hidden #000000;
-   background-color: #458ff6;
-
-   color: white;
-   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-   font-size: 20px;
-   font-style: normal;
-}
-
-.blueButton:hover {
-   display: flex;
-   justify-content: center;
-   width: 200px;
-   border-radius: 100px;
-   background-color: #d8e9ff;
-   color: #458ff6;
-   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-   font-size: 20px;
-   font-style: normal;
 }

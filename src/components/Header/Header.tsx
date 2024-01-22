@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./Header.module.css";
-import image_1 from "../../assets/image_1.png";
-import dots_rectangle from "../../assets/dots_rectangle.png";
 
 interface IProps {
    className?: string;
@@ -48,38 +46,7 @@ const Header: React.FC<IProps> = ({ className }) => {
                </ul>
             </nav>
          </header>
-         {/* прямоугольник */}
-         <img
-            src={dots_rectangle}
-            alt="dots_rectangle"
-            className={styles.dotsRectangle}
-         />
-         {/* Текст и картинка */}
-         <div className={styles.contentBox}>
-            <div className={styles.textContainer}>
-               <div className={styles.text}>
-                  <h1>
-                     {" "}
-                     Virtual healthcare
-                     <br /> for you{" "}
-                  </h1>
-                  <h2>
-                     Our service provides progressive, and <br /> affordable
-                     healthcare, accessible on mobile <br /> and online for
-                     everyone
-                  </h2>
-                  {/* Синяя кнопка */}
-                  <div className={styles.blueButton}></div>
-                  <button className={styles.blueButton}>
-                     <h3 className={styles.blueButtonText}>Consult today</h3>
-                  </button>
-               </div>
-
-               <img src={image_1} alt="image_1" className={styles.image_1} />
-            </div>
-         </div>
       </div>
    );
 };
-
 export default Header;

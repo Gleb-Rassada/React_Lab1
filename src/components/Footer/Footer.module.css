@@ -1,0 +1,77 @@
+.container {
+   max-width: 100%;
+   background: linear-gradient(208deg, #67c3f3 9.05%, #5a98f2 76.74%);
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   padding: 60px 0 60px 0;
+}
+
+.description {
+   margin-top: 10px;
+}
+
+.rights {
+   margin-top: 30px;
+   white-space: nowrap;
+}
+
+.columns {
+   display: flex;
+   justify-content: space-between;
+}
+
+.column {
+   text-align: left;
+   flex: 1;
+   padding: 0 80px;
+}
+
+.column li {
+   list-style-type: none;
+   margin-top: 10px;
+}
+
+.column h3 {
+   font-size: 18px;
+   margin-bottom: 15px;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.circle {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.letter {
+   color: #5a98f2;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.brand {
+   margin-left: 12px; /* Отступ между логотипом и брендом */
+}
+
+.dotsSquare5 {
+   position: absolute;
+   right: 70px;
+   margin-top: -160px;
+}
+
+.dotsSquare4 {
+   position: absolute;
+   margin-top: -40px;
+   left: 0;
+}

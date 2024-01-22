@@ -75,9 +75,7 @@ const ServiceCard: React.FC<IProps> = ({ className }) => {
             alt="dots_square_5"
             className={styles.dots_square_5}
          />
-         <button className={styles.button}>
-            <h3 className={styles.buttonText}>Learn more</h3>
-         </button>
+         <button className={styles.button}>Learn more</button>
       </div>
    );
 };
